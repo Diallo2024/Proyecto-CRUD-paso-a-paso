@@ -36,7 +36,7 @@ async function deleteCharacter(id) {
             headers: {"content-type": "aplication/json",},
         })
         const deletedCharacter = await response.json()
-        console.log(deleteCharacter)
+        
         return deletedCharacter
 }
 
